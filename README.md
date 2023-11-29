@@ -14,13 +14,13 @@ This script allows users to search for books in OpenLibrary by topics. It uses
 
 ## Usage
 ***
-    python script_name.py [--updatedata] [--consoleoutput] [topics [topics ...]]
+    python search_books.py [--updatedata] [--consoleoutput] [topics [topics ...]]
 
 
 ## Arguments
 ***
 
-    * --updatedata: Optional argument to download data, update the database, and process the data.
+    * --updatedata: Optional argument to download data, update the database, and process the data. (THIS OPTION TAKES A LONG TIME)
     * --consoleoutput: Optional argument to display obtained books in the console. If not specified,
       the output will be saved as a JSON file in the '/output/output.json' directory.
     * topics: The topics by which to search for books in OpenLibrary.
