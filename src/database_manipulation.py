@@ -285,10 +285,3 @@ def read_from_mongodb(topics) -> list:
         client.close()
 
     return result
-
-
-# string = "['Reference - General', 'Business & Economics', 'Business/Economics']"
-# string = string[1:-1]
-string = ''
-lst = list(string[1:-1].split(','))
-print(lst[2])
