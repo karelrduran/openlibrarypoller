@@ -40,7 +40,7 @@ import json
     
     To use this script, provide the desired options and topics as command-line arguments when executing
     the script. For example:
-    python script_name.py --updatedata --consoleoutput science fiction fantasy
+    python search_books.py --updatedata --consoleoutput science fiction fantasy
 """
 
 parser = argparse.ArgumentParser(description='Search for books in OpenLibrary by topics')
