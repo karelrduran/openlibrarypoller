@@ -16,7 +16,7 @@ import json
     - Retrieve books based on specified topics
     
     Usage:
-    python script_name.py [--updatedata] [--consoleoutput] [topics [topics ...]]
+    python search_books.py [--updatedata] [--consoleoutput] [topics [topics ...]]
     
     Arguments:
     - --updatedata: Optional argument to download data, update the database, and process the data.
